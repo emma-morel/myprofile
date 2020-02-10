@@ -1,0 +1,145 @@
+/* Colors and fonts */
+body { 
+background-color: #f3dfe3;
+color: mediumblue ;
+font-family: Arial;
+font-size: 17px; 
+font-weight: lighter;
+}
+
+h2, h4, h5 {
+font-family: 'Kreon', serif
+}
+
+h1 {
+color:purple;
+font-family: 'Anton', sans-serif;;  
+font-weight: 200; 
+letter-spacing 10px;
+font-size: 40px; 
+}
+
+h2{
+color:#843b62;
+font-size: 32px;
+font-weight: 900;
+
+
+
+h4 {
+color: #32407b;
+font-weight: 150;
+}
+
+h4{
+color: #32407b;
+font-weight: 150;
+}
+h5;{
+color: blue;
+font-weight:200
+background-color: #f3dfe3;
+color: mediumblue;
+font-family: Arial;
+}
+
+
+}
+
+a {
+ font-family: 'Kreon', serif;
+ text-decoration: none;
+ color: #6e2142;
+ color: purple;	
+ font-weight: bold;
+ font-size: 16px; 
+ background-color:#FD6C9E;
+ padding: 10px;
+ border-radius:4px;
+}
+
+a:hover {
+color: #6e2142;
+}
+
+
+/* Custom design with class */
+.container {
+ width: 700px;
+ margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container{
+	width: 700px
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+ 
+@media (max-width: 540px) {
+	.container {
+	width: 300px 	
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px; 
+	}
+}
+
+.card-pink {
+	background-color: pink; 
+	padding: 40px; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px; 
+	margin: 30px 0px; 
+	text-align: center;
+}
+
+.img-circle {
+border-radius: 70%; 
+}
+
+
+
+.btn-pink: {
+  background-color: #6e2142;
+  color: purple; 
+  padding: 15px 20px;
+  border-radius: 4px; 
+  font-weight:bold;
+  font-family: 'Kreon',serif; 
+}
+
+.btn-pink: {
+ color: white;
+  background-color: purple; 
+  }
+
+.list-inline {
+	list-style: none; 
+	padding-left: 0px; 
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px; 
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-inline i: {
+	color: black; 
+}
+
+#introduction p {
+	margin-bottom: 40px; 
+}
+
+
+
